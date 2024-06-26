@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AnonPay Core
+Comment=AnonPay P2P Cryptocurrency
+Comment[de]=Verbinde mit dem AnonPay peer-to-peer Netzwerk
+Comment[fr]=AnonPay, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AnonPay, eşten eşe kriptografik sanal para birimi
+Exec=anonpay-qt %u
+Terminal=false
+Type=Application
+Icon=anonpay128
+MimeType=x-scheme-handler/anonpay;
+Categories=Office;Finance;

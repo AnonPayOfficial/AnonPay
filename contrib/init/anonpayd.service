@@ -1,0 +1,22 @@
+[Unit]
+Description=AnonPay's distributed currency daemon
+After=network.target
+
+[Service]
+User=anonpaycore
+Group=anonpaycore
+
+Type=forking
+PIDFile=/var/lib/anonpayd/anonpayd.pid
+ExecStart=/usr/bin/anonpayd -daemon -pid=/var/lib/anonpayd/anonpayd.pid \
+-conf=/etc/anonpaycore/anonpay.conf -datadir=/var/lib/anonpayd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

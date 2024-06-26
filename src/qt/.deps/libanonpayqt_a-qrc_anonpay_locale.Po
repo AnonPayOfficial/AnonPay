@@ -1,0 +1,4 @@
+qt/libanonpayqt_a-qrc_anonpay_locale.o: qt/qrc_anonpay_locale.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
