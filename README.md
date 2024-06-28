@@ -23,5 +23,5 @@ AnonPay is a privacy-focused cryptocurrency designed to provide secure and confi
 - **Blocks 1-1000**: 0.1 ANP per block
 - **Blocks 1000-2000**: 0.5 ANP per block
 - **From Block 2000**: 2 ANP per block
-- **Reward Split**: 50% Masternode, 50% Miner
+- **Reward Split**: 45% Masternode, 50% Miner
 ﻿
