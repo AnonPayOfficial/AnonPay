@@ -15,7 +15,7 @@ AnonPay is a privacy-focused cryptocurrency designed to provide secure and confi
 - **Algorithm**: Keccak
 - **Block Time**: 2.5 minutes
 - **Max Supply**: 3,035,000 ANP
-- **Premine**: 35,000 ANP
+- **Premine**: 30,350 ANP
 - **Masternode Collateral**: 1,000 ANP
 ﻿
 ## Block Rewards
